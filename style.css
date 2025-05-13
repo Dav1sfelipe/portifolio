@@ -93,17 +93,6 @@ header .btn-contato button{ /*configuração do botao contato*/
     transition: .3s;
 }
 
-#image{ /*configuração da imagem do Adam Sandler*/
-    width: 13%;
-    height: 80vh;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 10%;
-    margin-top: 5%;
-}
 
 #logoSite{ /*configuração do logo do site*/
     height: 75px;
@@ -114,6 +103,12 @@ header .btn-contato button{ /*configuração do botao contato*/
     margin-top: 5%;
     
 }
+
+#image{ /*configuracao do tamanho da imagem do adam*/
+    background-image: url(../img/adam.png);
+    height: 550px;
+}
+
 
 p{ /*configuração do paragrafo ao lado da imagem*/
     background-color: rgba(61, 7, 177, 0.521); /*cor de fundo no paragrafo*/
@@ -135,7 +130,6 @@ p{ /*configuração do paragrafo ao lado da imagem*/
     flex-wrap: wrap;
     gap: 50px;
 }
-
 .tituloSite{ /*configuração do titulo do site*/
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -148,12 +142,25 @@ p{ /*configuração do paragrafo ao lado da imagem*/
     color: rgb(214, 173, 26);
     font-weight: bold;
 }
+/*estilo da interface do site*/
 
-.tituloSite h1{
-    color: #801fd5;
-    text-shadow: 0 0 5px #801fd5,
-    0 0 1px #801fd5,
-    0 0 1px #801fd5,
-    0 0 1px #801fd5,
-    0 0 1px #801fd5;
+.interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%0;
+}
+
+#image{ /*animacao da imagem que ta flutuando*/
+    position: relative;
+    animation: imagem-flutuando 5s ease-in-out infinite alternate;
+}
+
+@keyframes imagem-flutuando{ /*configuracao da animacao flutuante da imagem do adam*/
+    0%{
+        top : 0;
+    }
+    100%{
+        top: 30px;
+    }
 }
