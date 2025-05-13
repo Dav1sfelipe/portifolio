@@ -48,7 +48,7 @@ header .interface{
 }
 
 header a{
-    color: rgb(84, 84, 84);
+    color: rgb(174, 169, 169);
     text-decoration: none;
     display: inline-block;
 }
@@ -81,13 +81,13 @@ header .btn-contato button{ /*configuração do botao contato*/
 }
 
 .menuDesktop a{
-    color: rgb(84, 84, 84);
+    color: rgb(213, 208, 208);
     text-decoration: none;
     display: inline-block;
 }
 
 #teste a:hover { /*dar animacao para os botoes da interface*/
-    color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     transform: scale(1.15);
     transition: .3s;
