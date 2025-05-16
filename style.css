@@ -129,6 +129,7 @@ p{ /*configuração do paragrafo ao lado da imagem*/
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+
 }
 .tituloSite{ /*configuração do titulo do site*/
     color: rgb(255, 255, 255);
@@ -163,4 +164,14 @@ p{ /*configuração do paragrafo ao lado da imagem*/
     100%{
         top: 30px;
     }
+}
+
+#pacman{
+    height: 280px;
+    position: absolute;
+    left: 62%;  
+    margin-top: 150px;
+    filter: drop-shadow(0, 15px, 20px, yellow); 
+    filter: drop-shadow(0 0 50px yellow); 
+    filter: drop-shadow(0 0 60px yellow); 
 }
