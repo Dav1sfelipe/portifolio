@@ -169,9 +169,11 @@ p{ /*configuração do paragrafo ao lado da imagem*/
 #pacman{
     height: 280px;
     position: absolute;
-    left: 62%;  
-    margin-top: 150px;
-    filter: drop-shadow(0, 15px, 20px, yellow); 
-    filter: drop-shadow(0 0 50px yellow); 
-    filter: drop-shadow(0 0 60px yellow); 
+    left: 66%; 
+    margin-top: 300px;
+    filter: drop-shadow(0, 15px, 10px, yellow);
+    filter: drop-shadow(0 0 60px yellow);
+    filter: drop-shadow(0 0 60px yellow);
+    animation: imagem-flutuando 5s ease-in-out infinite alternate;
 }
+
